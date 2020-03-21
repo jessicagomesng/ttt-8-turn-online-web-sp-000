@@ -40,7 +40,7 @@ def turn(board)
   #get input
   #convert input to index
   input = gets.strip
-  input_to_index(input)
+  index = input_to_index(input)
   index = input_to_index(input) 
   #if index is valid
     #make the move for index
